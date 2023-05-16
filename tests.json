@@ -1,0 +1,2699 @@
+[{
+  "_id": {
+    "$oid": "641b413fd6ab0751ae0b377b"
+  },
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679507774000"
+    }
+  },
+  "light": 211,
+  "humidity": 58,
+  "temperature": 27.95,
+  "pressure": 1001.14,
+  "altitude": 101.34
+},{
+  "_id": {
+    "$oid": "641b415dd6ab0751ae0b377d"
+  },
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679507805000"
+    }
+  },
+  "light": 205,
+  "humidity": 58,
+  "temperature": 28.01,
+  "pressure": 1001.08,
+  "altitude": 101.8
+},{
+  "_id": {
+    "$oid": "641b606cd83f8df42c96b8fd"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679515754000"
+    }
+  },
+  "light": 188,
+  "humidity": 51,
+  "temperature": 28.33,
+  "pressure": 1000.47,
+  "altitude": 106.91
+},{
+  "_id": {
+    "$oid": "641b608ad83f8df42c96b8ff"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679515785000"
+    }
+  },
+  "light": 186,
+  "humidity": 51,
+  "temperature": 28.31,
+  "pressure": 1000.47,
+  "altitude": 106.95
+},{
+  "_id": {
+    "$oid": "641b60a8d83f8df42c96b901"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679515814000"
+    }
+  },
+  "light": 186,
+  "humidity": 51,
+  "temperature": 28.28,
+  "pressure": 1000.46,
+  "altitude": 107.03
+},{
+  "_id": {
+    "$oid": "641b60c6d83f8df42c96b903"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679515844000"
+    }
+  },
+  "light": 186,
+  "humidity": 51,
+  "temperature": 28.27,
+  "pressure": 1000.47,
+  "altitude": 106.91
+},{
+  "_id": {
+    "$oid": "641b60e4d83f8df42c96b905"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679515875000"
+    }
+  },
+  "light": 185,
+  "humidity": 51,
+  "temperature": 28.26,
+  "pressure": 1000.56,
+  "altitude": 106.15
+},{
+  "_id": {
+    "$oid": "641b6102d83f8df42c96b907"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679515905000"
+    }
+  },
+  "light": 186,
+  "humidity": 51,
+  "temperature": 28.25,
+  "pressure": 1000.47,
+  "altitude": 106.98
+},{
+  "_id": {
+    "$oid": "641b6120d83f8df42c96b909"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679515935000"
+    }
+  },
+  "light": 185,
+  "humidity": 51,
+  "temperature": 28.25,
+  "pressure": 1000.52,
+  "altitude": 106.56
+},{
+  "_id": {
+    "$oid": "641b613ed83f8df42c96b90b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679515964000"
+    }
+  },
+  "light": 185,
+  "humidity": 51,
+  "temperature": 28.25,
+  "pressure": 1000.52,
+  "altitude": 106.56
+},{
+  "_id": {
+    "$oid": "641b615cd83f8df42c96b90d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679515994000"
+    }
+  },
+  "light": 186,
+  "humidity": 51,
+  "temperature": 28.25,
+  "pressure": 1000.51,
+  "altitude": 106.59
+},{
+  "_id": {
+    "$oid": "641b617ad83f8df42c96b90f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516026000"
+    }
+  },
+  "light": 186,
+  "humidity": 51,
+  "temperature": 28.24,
+  "pressure": 1000.52,
+  "altitude": 106.5
+},{
+  "_id": {
+    "$oid": "641b6198d83f8df42c96b911"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516055000"
+    }
+  },
+  "light": 186,
+  "humidity": 51,
+  "temperature": 28.25,
+  "pressure": 1000.53,
+  "altitude": 106.46
+},{
+  "_id": {
+    "$oid": "641b61b6d83f8df42c96b913"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516085000"
+    }
+  },
+  "light": 187,
+  "humidity": 50,
+  "temperature": 28.22,
+  "pressure": 1000.45,
+  "altitude": 107.1
+},{
+  "_id": {
+    "$oid": "641b61d4d83f8df42c96b915"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516115000"
+    }
+  },
+  "light": 187,
+  "humidity": 50,
+  "temperature": 28.22,
+  "pressure": 1000.49,
+  "altitude": 106.79
+},{
+  "_id": {
+    "$oid": "641b61f2d83f8df42c96b917"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516145000"
+    }
+  },
+  "light": 187,
+  "humidity": 50,
+  "temperature": 28.22,
+  "pressure": 1000.54,
+  "altitude": 106.37
+},{
+  "_id": {
+    "$oid": "641b6210d83f8df42c96b919"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516176000"
+    }
+  },
+  "light": 187,
+  "humidity": 50,
+  "temperature": 28.22,
+  "pressure": 1000.54,
+  "altitude": 106.37
+},{
+  "_id": {
+    "$oid": "641b622ed83f8df42c96b91b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516205000"
+    }
+  },
+  "light": 188,
+  "humidity": 50,
+  "temperature": 28.24,
+  "pressure": 1000.56,
+  "altitude": 106.18
+},{
+  "_id": {
+    "$oid": "641b624cd83f8df42c96b91d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516235000"
+    }
+  },
+  "light": 188,
+  "humidity": 50,
+  "temperature": 28.22,
+  "pressure": 1000.49,
+  "altitude": 106.79
+},{
+  "_id": {
+    "$oid": "641b626ad83f8df42c96b91f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516266000"
+    }
+  },
+  "light": 187,
+  "humidity": 50,
+  "temperature": 28.25,
+  "pressure": 1000.57,
+  "altitude": 106.14
+},{
+  "_id": {
+    "$oid": "641b6288d83f8df42c96b921"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516295000"
+    }
+  },
+  "light": 188,
+  "humidity": 51,
+  "temperature": 28.25,
+  "pressure": 1000.49,
+  "altitude": 106.79
+},{
+  "_id": {
+    "$oid": "641b62a6d83f8df42c96b923"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516325000"
+    }
+  },
+  "light": 188,
+  "humidity": 51,
+  "temperature": 28.28,
+  "pressure": 1000.52,
+  "altitude": 106.57
+},{
+  "_id": {
+    "$oid": "641b62c4d83f8df42c96b925"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516356000"
+    }
+  },
+  "light": 188,
+  "humidity": 51,
+  "temperature": 28.26,
+  "pressure": 1000.47,
+  "altitude": 106.92
+},{
+  "_id": {
+    "$oid": "641b62e2d83f8df42c96b927"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516385000"
+    }
+  },
+  "light": 188,
+  "humidity": 51,
+  "temperature": 28.29,
+  "pressure": 1000.49,
+  "altitude": 106.82
+},{
+  "_id": {
+    "$oid": "641b6300d83f8df42c96b929"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516415000"
+    }
+  },
+  "light": 188,
+  "humidity": 51,
+  "temperature": 28.29,
+  "pressure": 1000.49,
+  "altitude": 106.81
+},{
+  "_id": {
+    "$oid": "641b631ed83f8df42c96b92b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516446000"
+    }
+  },
+  "light": 188,
+  "humidity": 50,
+  "temperature": 28.29,
+  "pressure": 1000.54,
+  "altitude": 106.38
+},{
+  "_id": {
+    "$oid": "641b633cd83f8df42c96b92d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516475000"
+    }
+  },
+  "light": 188,
+  "humidity": 50,
+  "temperature": 28.29,
+  "pressure": 1000.53,
+  "altitude": 106.42
+},{
+  "_id": {
+    "$oid": "641b635ad83f8df42c96b92f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516505000"
+    }
+  },
+  "light": 188,
+  "humidity": 50,
+  "temperature": 28.29,
+  "pressure": 1000.49,
+  "altitude": 106.78
+},{
+  "_id": {
+    "$oid": "641b6378d83f8df42c96b931"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516536000"
+    }
+  },
+  "light": 189,
+  "humidity": 50,
+  "temperature": 28.33,
+  "pressure": 1000.58,
+  "altitude": 106.03
+},{
+  "_id": {
+    "$oid": "641b6396d83f8df42c96b933"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516565000"
+    }
+  },
+  "light": 189,
+  "humidity": 53,
+  "temperature": 28.31,
+  "pressure": 1000.54,
+  "altitude": 106.36
+},{
+  "_id": {
+    "$oid": "641b63b4d83f8df42c96b935"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516595000"
+    }
+  },
+  "light": 190,
+  "humidity": 50,
+  "temperature": 28.31,
+  "pressure": 1000.54,
+  "altitude": 106.39
+},{
+  "_id": {
+    "$oid": "641b63d2d83f8df42c96b937"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516626000"
+    }
+  },
+  "light": 185,
+  "humidity": 50,
+  "temperature": 28.33,
+  "pressure": 1000.5,
+  "altitude": 106.69
+},{
+  "_id": {
+    "$oid": "641b63f0d83f8df42c96b939"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516656000"
+    }
+  },
+  "light": 192,
+  "humidity": 50,
+  "temperature": 28.32,
+  "pressure": 1000.53,
+  "altitude": 106.48
+},{
+  "_id": {
+    "$oid": "641b640ed83f8df42c96b93b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516686000"
+    }
+  },
+  "light": 186,
+  "humidity": 50,
+  "temperature": 28.32,
+  "pressure": 1000.54,
+  "altitude": 106.35
+},{
+  "_id": {
+    "$oid": "641b642cd83f8df42c96b93d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516715000"
+    }
+  },
+  "light": 186,
+  "humidity": 50,
+  "temperature": 28.32,
+  "pressure": 1000.55,
+  "altitude": 106.31
+},{
+  "_id": {
+    "$oid": "641b644ad83f8df42c96b93f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516745000"
+    }
+  },
+  "light": 186,
+  "humidity": 50,
+  "temperature": 28.34,
+  "pressure": 1000.59,
+  "altitude": 105.93
+},{
+  "_id": {
+    "$oid": "641b6468d83f8df42c96b941"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516776000"
+    }
+  },
+  "light": 186,
+  "humidity": 50,
+  "temperature": 28.34,
+  "pressure": 1000.51,
+  "altitude": 106.63
+},{
+  "_id": {
+    "$oid": "641b6486d83f8df42c96b943"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516805000"
+    }
+  },
+  "light": 187,
+  "humidity": 53,
+  "temperature": 28.36,
+  "pressure": 1000.43,
+  "altitude": 107.27
+},{
+  "_id": {
+    "$oid": "641b64a4d83f8df42c96b945"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516835000"
+    }
+  },
+  "light": 186,
+  "humidity": 50,
+  "temperature": 28.35,
+  "pressure": 1000.46,
+  "altitude": 107.01
+},{
+  "_id": {
+    "$oid": "641b64c2d83f8df42c96b947"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516866000"
+    }
+  },
+  "light": 194,
+  "humidity": 50,
+  "temperature": 28.37,
+  "pressure": 1000.5,
+  "altitude": 106.73
+},{
+  "_id": {
+    "$oid": "641b64e0d83f8df42c96b949"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516895000"
+    }
+  },
+  "light": 195,
+  "humidity": 50,
+  "temperature": 28.37,
+  "pressure": 1000.52,
+  "altitude": 106.56
+},{
+  "_id": {
+    "$oid": "641b64fed83f8df42c96b94b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516925000"
+    }
+  },
+  "light": 195,
+  "humidity": 50,
+  "temperature": 28.37,
+  "pressure": 1000.49,
+  "altitude": 106.81
+},{
+  "_id": {
+    "$oid": "641b651cd83f8df42c96b94d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516956000"
+    }
+  },
+  "light": 195,
+  "humidity": 50,
+  "temperature": 28.39,
+  "pressure": 1000.45,
+  "altitude": 107.08
+},{
+  "_id": {
+    "$oid": "641b653ad83f8df42c96b94f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679516985000"
+    }
+  },
+  "light": 195,
+  "humidity": 50,
+  "temperature": 28.4,
+  "pressure": 1000.43,
+  "altitude": 107.29
+},{
+  "_id": {
+    "$oid": "641b6558d83f8df42c96b951"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517015000"
+    }
+  },
+  "light": 198,
+  "humidity": 50,
+  "temperature": 28.4,
+  "pressure": 1000.44,
+  "altitude": 107.22
+},{
+  "_id": {
+    "$oid": "641b6576d83f8df42c96b953"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517046000"
+    }
+  },
+  "light": 198,
+  "humidity": 50,
+  "temperature": 28.43,
+  "pressure": 1000.41,
+  "altitude": 107.48
+},{
+  "_id": {
+    "$oid": "641b6594d83f8df42c96b955"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517076000"
+    }
+  },
+  "light": 201,
+  "humidity": 51,
+  "temperature": 28.43,
+  "pressure": 1000.43,
+  "altitude": 107.25
+},{
+  "_id": {
+    "$oid": "641b65b2d83f8df42c96b957"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517106000"
+    }
+  },
+  "light": 201,
+  "humidity": 51,
+  "temperature": 28.41,
+  "pressure": 1000.43,
+  "altitude": 107.31
+},{
+  "_id": {
+    "$oid": "641b65d0d83f8df42c96b959"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517135000"
+    }
+  },
+  "light": 201,
+  "humidity": 51,
+  "temperature": 28.43,
+  "pressure": 1000.44,
+  "altitude": 107.24
+},{
+  "_id": {
+    "$oid": "641b65eed83f8df42c96b95b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517165000"
+    }
+  },
+  "light": 201,
+  "humidity": 51,
+  "temperature": 28.43,
+  "pressure": 1000.41,
+  "altitude": 107.48
+},{
+  "_id": {
+    "$oid": "641b660cd83f8df42c96b95d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517196000"
+    }
+  },
+  "light": 201,
+  "humidity": 52,
+  "temperature": 28.44,
+  "pressure": 1000.4,
+  "altitude": 107.52
+},{
+  "_id": {
+    "$oid": "641b662ad83f8df42c96b95f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517226000"
+    }
+  },
+  "light": 201,
+  "humidity": 52,
+  "temperature": 28.42,
+  "pressure": 1000.43,
+  "altitude": 107.32
+},{
+  "_id": {
+    "$oid": "641b6648d83f8df42c96b961"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517256000"
+    }
+  },
+  "light": 201,
+  "humidity": 52,
+  "temperature": 28.42,
+  "pressure": 1000.43,
+  "altitude": 107.3
+},{
+  "_id": {
+    "$oid": "641b6666d83f8df42c96b963"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517285000"
+    }
+  },
+  "light": 200,
+  "humidity": 52,
+  "temperature": 28.43,
+  "pressure": 1000.44,
+  "altitude": 107.18
+},{
+  "_id": {
+    "$oid": "641b6684d83f8df42c96b965"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517315000"
+    }
+  },
+  "light": 204,
+  "humidity": 52,
+  "temperature": 28.44,
+  "pressure": 1000.41,
+  "altitude": 107.49
+},{
+  "_id": {
+    "$oid": "641b66a2d83f8df42c96b967"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517346000"
+    }
+  },
+  "light": 202,
+  "humidity": 52,
+  "temperature": 28.45,
+  "pressure": 1000.38,
+  "altitude": 107.73
+},{
+  "_id": {
+    "$oid": "641b66c0d83f8df42c96b969"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517376000"
+    }
+  },
+  "light": 204,
+  "humidity": 54,
+  "temperature": 28.46,
+  "pressure": 1000.38,
+  "altitude": 107.71
+},{
+  "_id": {
+    "$oid": "641b66ded83f8df42c96b96b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517406000"
+    }
+  },
+  "light": 202,
+  "humidity": 52,
+  "temperature": 28.47,
+  "pressure": 1000.33,
+  "altitude": 108.1
+},{
+  "_id": {
+    "$oid": "641b66fcd83f8df42c96b96d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517435000"
+    }
+  },
+  "light": 204,
+  "humidity": 52,
+  "temperature": 28.48,
+  "pressure": 1000.42,
+  "altitude": 107.34
+},{
+  "_id": {
+    "$oid": "641b671ad83f8df42c96b96f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517465000"
+    }
+  },
+  "light": 205,
+  "humidity": 52,
+  "temperature": 28.45,
+  "pressure": 1000.36,
+  "altitude": 107.84
+},{
+  "_id": {
+    "$oid": "641b6738d83f8df42c96b971"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517496000"
+    }
+  },
+  "light": 205,
+  "humidity": 52,
+  "temperature": 28.45,
+  "pressure": 1000.37,
+  "altitude": 107.77
+},{
+  "_id": {
+    "$oid": "641b6756d83f8df42c96b973"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517526000"
+    }
+  },
+  "light": 207,
+  "humidity": 52,
+  "temperature": 28.46,
+  "pressure": 1000.41,
+  "altitude": 107.42
+},{
+  "_id": {
+    "$oid": "641b6774d83f8df42c96b975"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517556000"
+    }
+  },
+  "light": 207,
+  "humidity": 52,
+  "temperature": 28.48,
+  "pressure": 1000.42,
+  "altitude": 107.34
+},{
+  "_id": {
+    "$oid": "641b6792d83f8df42c96b977"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517585000"
+    }
+  },
+  "light": 207,
+  "humidity": 52,
+  "temperature": 28.47,
+  "pressure": 1000.35,
+  "altitude": 107.93
+},{
+  "_id": {
+    "$oid": "641b67b0d83f8df42c96b979"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517615000"
+    }
+  },
+  "light": 207,
+  "humidity": 52,
+  "temperature": 28.47,
+  "pressure": 1000.42,
+  "altitude": 107.35
+},{
+  "_id": {
+    "$oid": "641b67ced83f8df42c96b97b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517646000"
+    }
+  },
+  "light": 207,
+  "humidity": 52,
+  "temperature": 28.46,
+  "pressure": 1000.39,
+  "altitude": 107.62
+},{
+  "_id": {
+    "$oid": "641b67ecd83f8df42c96b97d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517675000"
+    }
+  },
+  "light": 214,
+  "humidity": 52,
+  "temperature": 30.96,
+  "pressure": 1000.39,
+  "altitude": 107.62
+},{
+  "_id": {
+    "$oid": "641b680ad83f8df42c96b97f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517705000"
+    }
+  },
+  "light": 208,
+  "humidity": 52,
+  "temperature": 29.82,
+  "pressure": 1000.48,
+  "altitude": 106.85
+},{
+  "_id": {
+    "$oid": "641b6828d83f8df42c96b981"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517736000"
+    }
+  },
+  "light": 209,
+  "humidity": 52,
+  "temperature": 29.44,
+  "pressure": 1000.38,
+  "altitude": 107.67
+},{
+  "_id": {
+    "$oid": "641b6846d83f8df42c96b983"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517766000"
+    }
+  },
+  "light": 207,
+  "humidity": 52,
+  "temperature": 29.19,
+  "pressure": 1000.36,
+  "altitude": 107.86
+},{
+  "_id": {
+    "$oid": "641b6864d83f8df42c96b985"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517796000"
+    }
+  },
+  "light": 207,
+  "humidity": 52,
+  "temperature": 29.02,
+  "pressure": 1000.37,
+  "altitude": 107.77
+},{
+  "_id": {
+    "$oid": "641b6882d83f8df42c96b987"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517825000"
+    }
+  },
+  "light": 208,
+  "humidity": 51,
+  "temperature": 29,
+  "pressure": 1000.43,
+  "altitude": 107.3
+},{
+  "_id": {
+    "$oid": "641b68a0d83f8df42c96b989"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517855000"
+    }
+  },
+  "light": 224,
+  "humidity": 51,
+  "temperature": 28.85,
+  "pressure": 1000.36,
+  "altitude": 107.91
+},{
+  "_id": {
+    "$oid": "641b68be36ad776fc753124f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517886000"
+    }
+  },
+  "light": 209,
+  "humidity": 51,
+  "temperature": 28.77,
+  "pressure": 1000.36,
+  "altitude": 107.84
+},{
+  "_id": {
+    "$oid": "641b68dca922bfd56533c1ef"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517915000"
+    }
+  },
+  "light": 210,
+  "humidity": 51,
+  "temperature": 28.77,
+  "pressure": 1000.38,
+  "altitude": 107.67
+},{
+  "_id": {
+    "$oid": "641b68faa922bfd56533c1f1"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517945000"
+    }
+  },
+  "light": 211,
+  "humidity": 51,
+  "temperature": 28.73,
+  "pressure": 1000.35,
+  "altitude": 107.96
+},{
+  "_id": {
+    "$oid": "641b6918a922bfd56533c1f3"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679517976000"
+    }
+  },
+  "light": 210,
+  "humidity": 51,
+  "temperature": 28.65,
+  "pressure": 1000.37,
+  "altitude": 107.78
+},{
+  "_id": {
+    "$oid": "641b6936a922bfd56533c1f5"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518005000"
+    }
+  },
+  "light": 211,
+  "humidity": 51,
+  "temperature": 28.73,
+  "pressure": 1000.35,
+  "altitude": 107.96
+},{
+  "_id": {
+    "$oid": "641b6954a922bfd56533c1f7"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518035000"
+    }
+  },
+  "light": 212,
+  "humidity": 51,
+  "temperature": 28.77,
+  "pressure": 1000.36,
+  "altitude": 107.83
+},{
+  "_id": {
+    "$oid": "641b6972a922bfd56533c1f9"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518066000"
+    }
+  },
+  "light": 213,
+  "humidity": 51,
+  "temperature": 28.68,
+  "pressure": 1000.4,
+  "altitude": 107.54
+},{
+  "_id": {
+    "$oid": "641b6990a922bfd56533c1fb"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518095000"
+    }
+  },
+  "light": 212,
+  "humidity": 51,
+  "temperature": 28.7,
+  "pressure": 1000.34,
+  "altitude": 108.05
+},{
+  "_id": {
+    "$oid": "641b69aea922bfd56533c1fd"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518125000"
+    }
+  },
+  "light": 213,
+  "humidity": 51,
+  "temperature": 28.7,
+  "pressure": 1000.36,
+  "altitude": 107.84
+},{
+  "_id": {
+    "$oid": "641b69cca922bfd56533c1ff"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518156000"
+    }
+  },
+  "light": 213,
+  "humidity": 51,
+  "temperature": 28.7,
+  "pressure": 1000.4,
+  "altitude": 107.55
+},{
+  "_id": {
+    "$oid": "641b69eaa922bfd56533c201"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518186000"
+    }
+  },
+  "light": 214,
+  "humidity": 51,
+  "temperature": 28.76,
+  "pressure": 1000.37,
+  "altitude": 107.76
+},{
+  "_id": {
+    "$oid": "641b6a08a922bfd56533c203"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518216000"
+    }
+  },
+  "light": 214,
+  "humidity": 51,
+  "temperature": 28.68,
+  "pressure": 1000.37,
+  "altitude": 107.8
+},{
+  "_id": {
+    "$oid": "641b6a26a922bfd56533c205"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518245000"
+    }
+  },
+  "light": 216,
+  "humidity": 51,
+  "temperature": 28.71,
+  "pressure": 1000.44,
+  "altitude": 107.17
+},{
+  "_id": {
+    "$oid": "641b6a44a922bfd56533c207"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518275000"
+    }
+  },
+  "light": 216,
+  "humidity": 50,
+  "temperature": 28.76,
+  "pressure": 1000.4,
+  "altitude": 107.53
+},{
+  "_id": {
+    "$oid": "641b6a62a922bfd56533c209"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518306000"
+    }
+  },
+  "light": 217,
+  "humidity": 51,
+  "temperature": 28.73,
+  "pressure": 1000.39,
+  "altitude": 107.63
+},{
+  "_id": {
+    "$oid": "641b6a80a922bfd56533c20b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518336000"
+    }
+  },
+  "light": 217,
+  "humidity": 50,
+  "temperature": 28.74,
+  "pressure": 1000.36,
+  "altitude": 107.84
+},{
+  "_id": {
+    "$oid": "641b6a9ea922bfd56533c20d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518366000"
+    }
+  },
+  "light": 217,
+  "humidity": 50,
+  "temperature": 28.83,
+  "pressure": 1000.39,
+  "altitude": 107.59
+},{
+  "_id": {
+    "$oid": "641b6abca922bfd56533c20f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518395000"
+    }
+  },
+  "light": 210,
+  "humidity": 50,
+  "temperature": 28.83,
+  "pressure": 1000.44,
+  "altitude": 107.2
+},{
+  "_id": {
+    "$oid": "641b6adaa922bfd56533c211"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518425000"
+    }
+  },
+  "light": 214,
+  "humidity": 50,
+  "temperature": 28.79,
+  "pressure": 1000.34,
+  "altitude": 108
+},{
+  "_id": {
+    "$oid": "641b6af8a922bfd56533c213"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518456000"
+    }
+  },
+  "light": 223,
+  "humidity": 50,
+  "temperature": 28.84,
+  "pressure": 1000.34,
+  "altitude": 108.06
+},{
+  "_id": {
+    "$oid": "641b6b16a922bfd56533c215"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518485000"
+    }
+  },
+  "light": 223,
+  "humidity": 50,
+  "temperature": 28.87,
+  "pressure": 1000.43,
+  "altitude": 107.3
+},{
+  "_id": {
+    "$oid": "641b6b34a922bfd56533c217"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518515000"
+    }
+  },
+  "light": 223,
+  "humidity": 50,
+  "temperature": 28.86,
+  "pressure": 1000.4,
+  "altitude": 107.54
+},{
+  "_id": {
+    "$oid": "641b6b52a922bfd56533c219"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518546000"
+    }
+  },
+  "light": 225,
+  "humidity": 50,
+  "temperature": 28.87,
+  "pressure": 1000.4,
+  "altitude": 107.53
+},{
+  "_id": {
+    "$oid": "641b6b70a922bfd56533c21b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518575000"
+    }
+  },
+  "light": 223,
+  "humidity": 51,
+  "temperature": 28.89,
+  "pressure": 1000.39,
+  "altitude": 107.63
+},{
+  "_id": {
+    "$oid": "641b6b8ea922bfd56533c21d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518605000"
+    }
+  },
+  "light": 222,
+  "humidity": 50,
+  "temperature": 28.93,
+  "pressure": 1000.36,
+  "altitude": 107.86
+},{
+  "_id": {
+    "$oid": "641b6bada922bfd56533c21f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518636000"
+    }
+  },
+  "light": 223,
+  "humidity": 50,
+  "temperature": 28.83,
+  "pressure": 1000.39,
+  "altitude": 107.58
+},{
+  "_id": {
+    "$oid": "641b6bcaa922bfd56533c221"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518665000"
+    }
+  },
+  "light": 223,
+  "humidity": 50,
+  "temperature": 28.87,
+  "pressure": 1000.4,
+  "altitude": 107.53
+},{
+  "_id": {
+    "$oid": "641b6be8a922bfd56533c223"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518695000"
+    }
+  },
+  "light": 223,
+  "humidity": 50,
+  "temperature": 28.85,
+  "pressure": 1000.39,
+  "altitude": 107.65
+},{
+  "_id": {
+    "$oid": "641b6c06a922bfd56533c225"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518726000"
+    }
+  },
+  "light": 224,
+  "humidity": 50,
+  "temperature": 28.85,
+  "pressure": 1000.45,
+  "altitude": 107.13
+},{
+  "_id": {
+    "$oid": "641b6c24a922bfd56533c227"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518756000"
+    }
+  },
+  "light": 225,
+  "humidity": 51,
+  "temperature": 28.87,
+  "pressure": 1000.32,
+  "altitude": 108.18
+},{
+  "_id": {
+    "$oid": "641b6c42a922bfd56533c229"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518786000"
+    }
+  },
+  "light": 225,
+  "humidity": 50,
+  "temperature": 28.92,
+  "pressure": 1000.36,
+  "altitude": 107.85
+},{
+  "_id": {
+    "$oid": "641b6c60a922bfd56533c22b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518815000"
+    }
+  },
+  "light": 228,
+  "humidity": 50,
+  "temperature": 28.91,
+  "pressure": 1000.3,
+  "altitude": 108.38
+},{
+  "_id": {
+    "$oid": "641b6c7ea922bfd56533c22d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518845000"
+    }
+  },
+  "light": 228,
+  "humidity": 51,
+  "temperature": 28.93,
+  "pressure": 1000.32,
+  "altitude": 108.23
+},{
+  "_id": {
+    "$oid": "641b6c9ca922bfd56533c22f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518876000"
+    }
+  },
+  "light": 229,
+  "humidity": 51,
+  "temperature": 28.9,
+  "pressure": 1000.35,
+  "altitude": 107.97
+},{
+  "_id": {
+    "$oid": "641b6cbaa922bfd56533c231"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518905000"
+    }
+  },
+  "light": 229,
+  "humidity": 51,
+  "temperature": 28.91,
+  "pressure": 1000.31,
+  "altitude": 108.31
+},{
+  "_id": {
+    "$oid": "641b6cd8a922bfd56533c233"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518935000"
+    }
+  },
+  "light": 233,
+  "humidity": 51,
+  "temperature": 28.88,
+  "pressure": 1000.36,
+  "altitude": 107.84
+},{
+  "_id": {
+    "$oid": "641b6cf6a922bfd56533c235"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518966000"
+    }
+  },
+  "light": 233,
+  "humidity": 51,
+  "temperature": 28.93,
+  "pressure": 1000.29,
+  "altitude": 108.42
+},{
+  "_id": {
+    "$oid": "641b6d14a922bfd56533c237"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679518995000"
+    }
+  },
+  "light": 234,
+  "humidity": 54,
+  "temperature": 28.94,
+  "pressure": 1000.33,
+  "altitude": 108.11
+},{
+  "_id": {
+    "$oid": "641b6d32a922bfd56533c239"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519025000"
+    }
+  },
+  "light": 235,
+  "humidity": 51,
+  "temperature": 28.95,
+  "pressure": 1000.39,
+  "altitude": 107.64
+},{
+  "_id": {
+    "$oid": "641b6d50a922bfd56533c23b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519056000"
+    }
+  },
+  "light": 236,
+  "humidity": 51,
+  "temperature": 28.82,
+  "pressure": 1000.34,
+  "altitude": 108.02
+},{
+  "_id": {
+    "$oid": "641b6d6ea922bfd56533c23d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519085000"
+    }
+  },
+  "light": 237,
+  "humidity": 51,
+  "temperature": 28.79,
+  "pressure": 1000.3,
+  "altitude": 108.39
+},{
+  "_id": {
+    "$oid": "641b6d8ca922bfd56533c23f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519115000"
+    }
+  },
+  "light": 238,
+  "humidity": 51,
+  "temperature": 28.83,
+  "pressure": 1000.29,
+  "altitude": 108.49
+},{
+  "_id": {
+    "$oid": "641b6daaa922bfd56533c241"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519146000"
+    }
+  },
+  "light": 240,
+  "humidity": 51,
+  "temperature": 28.9,
+  "pressure": 1000.3,
+  "altitude": 108.39
+},{
+  "_id": {
+    "$oid": "641b6dc8a922bfd56533c243"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519176000"
+    }
+  },
+  "light": 240,
+  "humidity": 51,
+  "temperature": 28.77,
+  "pressure": 1000.34,
+  "altitude": 108.03
+},{
+  "_id": {
+    "$oid": "641b6de6a922bfd56533c245"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519206000"
+    }
+  },
+  "light": 234,
+  "humidity": 51,
+  "temperature": 28.79,
+  "pressure": 1000.33,
+  "altitude": 108.16
+},{
+  "_id": {
+    "$oid": "641b6e04a922bfd56533c247"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519235000"
+    }
+  },
+  "light": 235,
+  "humidity": 51,
+  "temperature": 28.83,
+  "pressure": 1000.31,
+  "altitude": 108.26
+},{
+  "_id": {
+    "$oid": "641b6e22a922bfd56533c249"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519265000"
+    }
+  },
+  "light": 236,
+  "humidity": 51,
+  "temperature": 28.91,
+  "pressure": 1000.29,
+  "altitude": 108.45
+},{
+  "_id": {
+    "$oid": "641b6e40a922bfd56533c24b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519296000"
+    }
+  },
+  "light": 236,
+  "humidity": 51,
+  "temperature": 28.9,
+  "pressure": 1000.26,
+  "altitude": 108.73
+},{
+  "_id": {
+    "$oid": "641b6e5ea922bfd56533c24d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519325000"
+    }
+  },
+  "light": 237,
+  "humidity": 53,
+  "temperature": 28.83,
+  "pressure": 1000.27,
+  "altitude": 108.59
+},{
+  "_id": {
+    "$oid": "641b6e7ca922bfd56533c24f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519355000"
+    }
+  },
+  "light": 238,
+  "humidity": 52,
+  "temperature": 28.82,
+  "pressure": 1000.3,
+  "altitude": 108.35
+},{
+  "_id": {
+    "$oid": "641b6e9aa922bfd56533c251"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519386000"
+    }
+  },
+  "light": 246,
+  "humidity": 52,
+  "temperature": 28.86,
+  "pressure": 1000.31,
+  "altitude": 108.33
+},{
+  "_id": {
+    "$oid": "641b6eb8a922bfd56533c253"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519416000"
+    }
+  },
+  "light": 247,
+  "humidity": 51,
+  "temperature": 28.9,
+  "pressure": 1000.28,
+  "altitude": 108.57
+},{
+  "_id": {
+    "$oid": "641b6ed6a922bfd56533c255"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519446000"
+    }
+  },
+  "light": 248,
+  "humidity": 51,
+  "temperature": 28.88,
+  "pressure": 1000.26,
+  "altitude": 108.72
+},{
+  "_id": {
+    "$oid": "641b6ef4a922bfd56533c257"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519475000"
+    }
+  },
+  "light": 248,
+  "humidity": 51,
+  "temperature": 28.9,
+  "pressure": 1000.31,
+  "altitude": 108.33
+},{
+  "_id": {
+    "$oid": "641b6f12a922bfd56533c259"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519505000"
+    }
+  },
+  "light": 252,
+  "humidity": 51,
+  "temperature": 28.81,
+  "pressure": 1000.35,
+  "altitude": 107.97
+},{
+  "_id": {
+    "$oid": "641b6f30a922bfd56533c25b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519536000"
+    }
+  },
+  "light": 254,
+  "humidity": 51,
+  "temperature": 28.82,
+  "pressure": 1000.31,
+  "altitude": 108.29
+},{
+  "_id": {
+    "$oid": "641b6f4ea922bfd56533c25d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519565000"
+    }
+  },
+  "light": 259,
+  "humidity": 51,
+  "temperature": 28.83,
+  "pressure": 1000.25,
+  "altitude": 108.83
+},{
+  "_id": {
+    "$oid": "641b6f6ca922bfd56533c25f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519595000"
+    }
+  },
+  "light": 259,
+  "humidity": 52,
+  "temperature": 28.9,
+  "pressure": 1000.27,
+  "altitude": 108.66
+},{
+  "_id": {
+    "$oid": "641b6f8aa922bfd56533c261"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519626000"
+    }
+  },
+  "light": 261,
+  "humidity": 52,
+  "temperature": 28.93,
+  "pressure": 1000.33,
+  "altitude": 108.13
+},{
+  "_id": {
+    "$oid": "641b6fa8a922bfd56533c263"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519656000"
+    }
+  },
+  "light": 261,
+  "humidity": 52,
+  "temperature": 28.89,
+  "pressure": 1000.31,
+  "altitude": 108.31
+},{
+  "_id": {
+    "$oid": "641b6fc6a922bfd56533c265"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519686000"
+    }
+  },
+  "light": 262,
+  "humidity": 52,
+  "temperature": 28.89,
+  "pressure": 1000.3,
+  "altitude": 108.38
+},{
+  "_id": {
+    "$oid": "641b6fe4a922bfd56533c267"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519715000"
+    }
+  },
+  "light": 264,
+  "humidity": 52,
+  "temperature": 28.91,
+  "pressure": 1000.33,
+  "altitude": 108.12
+},{
+  "_id": {
+    "$oid": "641b7002a922bfd56533c269"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519745000"
+    }
+  },
+  "light": 266,
+  "humidity": 52,
+  "temperature": 28.92,
+  "pressure": 1000.26,
+  "altitude": 108.73
+},{
+  "_id": {
+    "$oid": "641b7020a922bfd56533c26b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519776000"
+    }
+  },
+  "light": 266,
+  "humidity": 52,
+  "temperature": 28.94,
+  "pressure": 1000.32,
+  "altitude": 108.23
+},{
+  "_id": {
+    "$oid": "641b703ea922bfd56533c26d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519805000"
+    }
+  },
+  "light": 267,
+  "humidity": 49,
+  "temperature": 28.94,
+  "pressure": 1000.34,
+  "altitude": 108.01
+},{
+  "_id": {
+    "$oid": "641b705ca922bfd56533c26f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519835000"
+    }
+  },
+  "light": 270,
+  "humidity": 52,
+  "temperature": 28.9,
+  "pressure": 1000.31,
+  "altitude": 108.26
+},{
+  "_id": {
+    "$oid": "641b707aa922bfd56533c271"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519866000"
+    }
+  },
+  "light": 272,
+  "humidity": 52,
+  "temperature": 28.9,
+  "pressure": 1000.32,
+  "altitude": 108.21
+},{
+  "_id": {
+    "$oid": "641b7098a922bfd56533c273"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519895000"
+    }
+  },
+  "light": 273,
+  "humidity": 52,
+  "temperature": 28.9,
+  "pressure": 1000.33,
+  "altitude": 108.17
+},{
+  "_id": {
+    "$oid": "641b70b6a922bfd56533c275"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519925000"
+    }
+  },
+  "light": 274,
+  "humidity": 52,
+  "temperature": 28.88,
+  "pressure": 1000.38,
+  "altitude": 107.75
+},{
+  "_id": {
+    "$oid": "641b70d4a922bfd56533c277"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519956000"
+    }
+  },
+  "light": 276,
+  "humidity": 52,
+  "temperature": 28.86,
+  "pressure": 1000.32,
+  "altitude": 108.2
+},{
+  "_id": {
+    "$oid": "641b70f2a922bfd56533c279"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679519985000"
+    }
+  },
+  "light": 278,
+  "humidity": 53,
+  "temperature": 28.87,
+  "pressure": 1000.4,
+  "altitude": 107.57
+},{
+  "_id": {
+    "$oid": "641b7110a922bfd56533c27b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520015000"
+    }
+  },
+  "light": 284,
+  "humidity": 52,
+  "temperature": 28.93,
+  "pressure": 1000.35,
+  "altitude": 107.94
+},{
+  "_id": {
+    "$oid": "641b712ea922bfd56533c27d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520046000"
+    }
+  },
+  "light": 284,
+  "humidity": 52,
+  "temperature": 28.84,
+  "pressure": 1000.33,
+  "altitude": 108.16
+},{
+  "_id": {
+    "$oid": "641b714ca922bfd56533c27f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520075000"
+    }
+  },
+  "light": 288,
+  "humidity": 52,
+  "temperature": 28.82,
+  "pressure": 1000.39,
+  "altitude": 107.64
+},{
+  "_id": {
+    "$oid": "641b716aa922bfd56533c281"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520105000"
+    }
+  },
+  "light": 291,
+  "humidity": 52,
+  "temperature": 28.82,
+  "pressure": 1000.36,
+  "altitude": 107.89
+},{
+  "_id": {
+    "$oid": "641b7188a922bfd56533c283"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520136000"
+    }
+  },
+  "light": 296,
+  "humidity": 52,
+  "temperature": 28.79,
+  "pressure": 1000.36,
+  "altitude": 107.84
+},{
+  "_id": {
+    "$oid": "641b71a6a922bfd56533c285"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520165000"
+    }
+  },
+  "light": 281,
+  "humidity": 52,
+  "temperature": 28.85,
+  "pressure": 1000.34,
+  "altitude": 108.07
+},{
+  "_id": {
+    "$oid": "641b71c4a922bfd56533c287"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520195000"
+    }
+  },
+  "light": 288,
+  "humidity": 52,
+  "temperature": 28.84,
+  "pressure": 1000.29,
+  "altitude": 108.45
+},{
+  "_id": {
+    "$oid": "641b71e2a922bfd56533c289"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520226000"
+    }
+  },
+  "light": 289,
+  "humidity": 52,
+  "temperature": 28.84,
+  "pressure": 1000.38,
+  "altitude": 107.7
+},{
+  "_id": {
+    "$oid": "641b7200a922bfd56533c28b"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520256000"
+    }
+  },
+  "light": 291,
+  "humidity": 52,
+  "temperature": 28.83,
+  "pressure": 1000.38,
+  "altitude": 107.69
+},{
+  "_id": {
+    "$oid": "641b721ea922bfd56533c28d"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520286000"
+    }
+  },
+  "light": 297,
+  "humidity": 52,
+  "temperature": 28.88,
+  "pressure": 1000.36,
+  "altitude": 107.84
+},{
+  "_id": {
+    "$oid": "641b723ca922bfd56533c28f"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1679520315000"
+    }
+  },
+  "light": 297,
+  "humidity": 52,
+  "temperature": 28.87,
+  "pressure": 1000.34,
+  "altitude": 108.01
+},{
+  "_id": {
+    "$oid": "64559d7dc64d3dd496867c6e"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332477000"
+    }
+  },
+  "light": 843,
+  "humidity": 64,
+  "temperature": 25.47,
+  "pressure": 1000.23,
+  "altitude": 109
+},{
+  "_id": {
+    "$oid": "64559d7dedc2b763b73099f8"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332477000"
+    }
+  },
+  "light": 843,
+  "humidity": 64,
+  "temperature": 25.47,
+  "pressure": 1000.23,
+  "altitude": 109
+},{
+  "_id": {
+    "$oid": "64559d7da667089e2c7936d2"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332477000"
+    }
+  },
+  "light": 843,
+  "humidity": 64,
+  "temperature": 25.47,
+  "pressure": 1000.23,
+  "altitude": 109
+},{
+  "_id": {
+    "$oid": "64559d9bedc2b763b73099fa"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332506000"
+    }
+  },
+  "light": 824,
+  "humidity": 62,
+  "temperature": 25.56,
+  "pressure": 1000.25,
+  "altitude": 108.8
+},{
+  "_id": {
+    "$oid": "64559d9ba667089e2c7936d4"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332506000"
+    }
+  },
+  "light": 824,
+  "humidity": 62,
+  "temperature": 25.56,
+  "pressure": 1000.25,
+  "altitude": 108.8
+},{
+  "_id": {
+    "$oid": "64559d9bc64d3dd496867c70"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332506000"
+    }
+  },
+  "light": 824,
+  "humidity": 62,
+  "temperature": 25.56,
+  "pressure": 1000.25,
+  "altitude": 108.8
+},{
+  "_id": {
+    "$oid": "64559db9edc2b763b73099fc"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332536000"
+    }
+  },
+  "light": 825,
+  "humidity": 62,
+  "temperature": 25.58,
+  "pressure": 1000.22,
+  "altitude": 109.07
+},{
+  "_id": {
+    "$oid": "64559db9a667089e2c7936d6"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332536000"
+    }
+  },
+  "light": 825,
+  "humidity": 62,
+  "temperature": 25.58,
+  "pressure": 1000.22,
+  "altitude": 109.07
+},{
+  "_id": {
+    "$oid": "64559db9c64d3dd496867c72"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332536000"
+    }
+  },
+  "light": 825,
+  "humidity": 62,
+  "temperature": 25.58,
+  "pressure": 1000.22,
+  "altitude": 109.07
+},{
+  "_id": {
+    "$oid": "64559dd7edc2b763b73099fe"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332567000"
+    }
+  },
+  "light": 820,
+  "humidity": 61,
+  "temperature": 25.59,
+  "pressure": 1000.24,
+  "altitude": 108.85
+},{
+  "_id": {
+    "$oid": "64559dd7c64d3dd496867c74"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332567000"
+    }
+  },
+  "light": 820,
+  "humidity": 61,
+  "temperature": 25.59,
+  "pressure": 1000.24,
+  "altitude": 108.85
+},{
+  "_id": {
+    "$oid": "64559dd7a667089e2c7936d8"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332567000"
+    }
+  },
+  "light": 820,
+  "humidity": 61,
+  "temperature": 25.59,
+  "pressure": 1000.24,
+  "altitude": 108.85
+},{
+  "_id": {
+    "$oid": "64559df5edc2b763b7309a00"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332596000"
+    }
+  },
+  "light": 825,
+  "humidity": 64,
+  "temperature": 25.6,
+  "pressure": 1000.28,
+  "altitude": 108.58
+},{
+  "_id": {
+    "$oid": "64559df5c64d3dd496867c76"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332596000"
+    }
+  },
+  "light": 825,
+  "humidity": 64,
+  "temperature": 25.6,
+  "pressure": 1000.28,
+  "altitude": 108.58
+},{
+  "_id": {
+    "$oid": "64559df5a667089e2c7936da"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332596000"
+    }
+  },
+  "light": 825,
+  "humidity": 64,
+  "temperature": 25.6,
+  "pressure": 1000.28,
+  "altitude": 108.58
+},{
+  "_id": {
+    "$oid": "64559e13edc2b763b7309a02"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332626000"
+    }
+  },
+  "light": 825,
+  "humidity": 62,
+  "temperature": 25.59,
+  "pressure": 1000.25,
+  "altitude": 108.82
+},{
+  "_id": {
+    "$oid": "64559e13c64d3dd496867c78"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332626000"
+    }
+  },
+  "light": 825,
+  "humidity": 62,
+  "temperature": 25.59,
+  "pressure": 1000.25,
+  "altitude": 108.82
+},{
+  "_id": {
+    "$oid": "64559e13a667089e2c7936dc"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332626000"
+    }
+  },
+  "light": 825,
+  "humidity": 62,
+  "temperature": 25.59,
+  "pressure": 1000.25,
+  "altitude": 108.82
+},{
+  "_id": {
+    "$oid": "64559e31c64d3dd496867c7a"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332657000"
+    }
+  },
+  "light": 829,
+  "humidity": 62,
+  "temperature": 25.6,
+  "pressure": 1000.31,
+  "altitude": 108.29
+},{
+  "_id": {
+    "$oid": "64559e31edc2b763b7309a04"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332657000"
+    }
+  },
+  "light": 829,
+  "humidity": 62,
+  "temperature": 25.6,
+  "pressure": 1000.31,
+  "altitude": 108.29
+},{
+  "_id": {
+    "$oid": "64559e4fedc2b763b7309a06"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332687000"
+    }
+  },
+  "light": 831,
+  "humidity": 62,
+  "temperature": 25.59,
+  "pressure": 1000.24,
+  "altitude": 108.9
+},{
+  "_id": {
+    "$oid": "64559e4fc64d3dd496867c7c"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332687000"
+    }
+  },
+  "light": 831,
+  "humidity": 62,
+  "temperature": 25.59,
+  "pressure": 1000.24,
+  "altitude": 108.9
+},{
+  "_id": {
+    "$oid": "64559e6dedc2b763b7309a08"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332717000"
+    }
+  },
+  "light": 831,
+  "humidity": 62,
+  "temperature": 25.59,
+  "pressure": 1000.28,
+  "altitude": 108.51
+},{
+  "_id": {
+    "$oid": "64559e6dc64d3dd496867c7e"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332717000"
+    }
+  },
+  "light": 831,
+  "humidity": 62,
+  "temperature": 25.59,
+  "pressure": 1000.28,
+  "altitude": 108.51
+},{
+  "_id": {
+    "$oid": "64559e6ddda14dc434ee0478"
+  },
+  "topic": "EM_JMPS2285",
+  "timeStamp": {
+    "$date": {
+      "$numberLong": "1683332717000"
+    }
+  },
+  "light": 831,
+  "humidity": 62,
+  "temperature": 25.59,
+  "pressure": 1000.28,
+  "altitude": 108.51
+}]
