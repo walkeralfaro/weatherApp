@@ -1,5 +1,6 @@
 import { ReactECharts, ReactEChartsProps } from "./ReactEcharts";
 import TEST from '../tests.json'
+import { useFetchMeasure } from "./hooks/useFetchMeasure";
 
 const dateList = TEST.map( ({timeStamp}) => {
   const epoch = parseInt(timeStamp.$date.$numberLong);
@@ -17,9 +18,6 @@ const option: ReactEChartsProps["option"]  = {
   visualMap: [
     {
       show: false,
-      // type: 'continuous',
-      // seriesIndex: 0,
-
     }
   ],
   dataZoom: [
@@ -64,6 +62,11 @@ const option: ReactEChartsProps["option"]  = {
 };
 
 export const Line = () => {
+
+
+  const { measures, isLoading } = useFetchMeasure('2023-03-2');
+  
+  
   return (
     <div>
       <ReactECharts option={option} style={{height: "300px"}} theme="light" loading={false}/>
