@@ -1,14 +1,13 @@
 import { ReactECharts } from "./ReactEcharts";
 import { useFetchMeasure } from "./hooks/useFetchMeasure";
 import { optionECharts } from "./helpers/optionEChart";
+import 'react-calendar/dist/Calendar.css';
 
-export const Line = () => {
-  
-  
-  const { measures, isLoading } = useFetchMeasure('2023-03-22');
+export const Line = ({newDate}) => {
+  const { measures, isLoading, error } = useFetchMeasure(newDate);
 
   const temperatures = measures.map( (measure) => {
-    return measure.temperature;
+    return measure.light;
   })
 
   const date = measures.map( (measure) => {
@@ -16,14 +15,16 @@ export const Line = () => {
   })
 
   const options = optionECharts(date, temperatures)
-  
-  // console.log(measures);
-  // console.log(isLoading);
 
-  
   return (
+
     <div>
-      <ReactECharts option={options} style={{height: "300px"}} theme="light" loading={isLoading}/>
+      {
+        error ?
+        <div> Hubo un error </div>
+        :
+        <ReactECharts option={options} style={{height: "300px"}} theme="light" loading={isLoading}/>
+      }
     </div>
   )
 }

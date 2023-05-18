@@ -3,11 +3,7 @@ import { ReactEChartsProps } from "../ReactEcharts";
 export const optionECharts = ( dateList: string[], valueList: number[] ) => {
 
   const option: ReactEChartsProps["option"]  = {
-    visualMap: [
-      {
-        show: false,
-      }
-    ],
+
     dataZoom: [
       {
         type: 'inside',
@@ -46,7 +42,7 @@ export const optionECharts = ( dateList: string[], valueList: number[] ) => {
         showSymbol: false,
         data: valueList,
       }
-    ]
+    ],
   };
 
   return (

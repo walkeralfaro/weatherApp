@@ -4,19 +4,30 @@ import { getMeasures } from "../helpers/getMeasures";
 export const useFetchMeasure = (date: string) => {
 
   const [measures, setMeasures] = useState([]);
+  const [error, setError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   const getValuesMeasured = async() => {
-    const newMeasures = await getMeasures(date);
-    setMeasures(newMeasures);
-    setIsLoading(false);
+    if(date) {
+      const newMeasures = await getMeasures(date);
+      if(!newMeasures) {
+        setError(true);
+        return;
+      }
+      setError(false);
+      setMeasures(newMeasures);
+      setIsLoading(false); 
+    }
   }
 
   useEffect(() => {
-    getValuesMeasured();    
-  }, []);
-  
+    getValuesMeasured(); 
+    setIsLoading(true);    
+  }, [date]);
+
+
   return {
+    error,
     measures,
     isLoading,
   }

@@ -1,5 +1,3 @@
-
-
 export const getMeasures = async (date: string) => {
 
   const url = `${import.meta.env.VITE_API_HOST}${import.meta.env.VITE_API_END_POINT}${date}`;
@@ -9,7 +7,7 @@ export const getMeasures = async (date: string) => {
     const data = await response.json();
     return data;
   } catch (error) {
-    console.log('Error parse JSON: ', error);
+    console.log('Error message: ', error);
   }
 }
 
