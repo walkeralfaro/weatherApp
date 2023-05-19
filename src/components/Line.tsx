@@ -7,6 +7,9 @@ export const Line = ({newDate = '', newMeasure = ''}) => {
   
   const { measures, isLoading, error } = useFetchMeasure(newDate);
 
+  // Echart requiere que se definan las propiedades del gráfico en el arreglo "option"
+  // La función "options" retorna el arreglo "option" y tiene dos parámetros de entradas
+  // que son: el timeStamp y el Array de valores 
   const options = optionECharts(getArrayTimestamp(measures, "timeStamp"), getArrayMeasures(measures, newMeasure))
 
   return (

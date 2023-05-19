@@ -1,4 +1,4 @@
-import { ReactEChartsProps } from "../ReactEcharts";
+import { ReactEChartsProps } from "../components/ReactEcharts";
 
 export const optionECharts = ( dateList: string[], valueList: number[] ) => {
 
