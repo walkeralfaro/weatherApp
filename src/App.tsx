@@ -1,11 +1,11 @@
 import { FC, useState } from "react"
-import { DateCalendar } from "./DateCalendar"
-import { Line } from "./Line"
-import { Modal } from "./Modal";
 import 'react-calendar/dist/Calendar.css';
+import { DateCalendar, Line, Modal, SelectMeasure } from "./components";
+
 
 export const App: FC = () => {
   const [date, setDate] = useState('');
+  const [measureSelected, setMeasureSelected] = useState('')
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
@@ -20,16 +20,21 @@ export const App: FC = () => {
     setDate(newDate);
     setModalOpen(false);
   };
+
+  const handleSelectMeasure = (selectMeasure: string) => {
+    setMeasureSelected(selectMeasure)
+  }
   
   return (
     <div>
+      <SelectMeasure onSelectMeasure = {handleSelectMeasure} />
       <div>
         <button onClick={openModal}>{date}</button>
         <Modal isOpen={modalOpen} onClose={closeModal}>
           <DateCalendar onNewDate={handleNewDate} />
         </Modal>
       </div>
-      <Line newDate={date}/>
+      <Line newDate={date} newMeasure={measureSelected}/>
     </div>
   )
 }
