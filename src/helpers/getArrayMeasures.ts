@@ -24,7 +24,7 @@ export const getArrayTimestamp = (measures: DataItem[], key: string) =>
     const date = new Date(timestamp);
     const hours = date.getHours();
     const minutes = date.getMinutes();
-    const formattedTime = hours.toString().padStart(2, "0") + ":" + minutes.toString().padStart(2, "0");
+    const formattedTime = hours.toString().padStart(2, "0") + ":" + minutes.toString().padStart(2, "0") + 'h';
     return formattedTime;
   });
 };

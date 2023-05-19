@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import Calendar from 'react-calendar';
 
-
 export const DateCalendar = ({ onNewDate }) => {
   const [date, setDate] = useState<Date>(new Date());
 
@@ -17,8 +16,6 @@ export const DateCalendar = ({ onNewDate }) => {
     const dateString = `${yy}-${mm}-${dd}`;
     onNewDate(dateString);
   }, [date])
-
-  
 
   return (
     <Calendar
