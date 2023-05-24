@@ -1,6 +1,7 @@
 import { FC, useState } from "react"
-import 'react-calendar/dist/Calendar.css';
 import { DateCalendar, Line, Modal, SelectMeasure } from "./components";
+import { GlobalStyles } from "./styles/GlobalStyles";
+import 'react-calendar/dist/Calendar.css';
 
 
 export const App: FC = () => {
@@ -27,6 +28,7 @@ export const App: FC = () => {
   
   return (
     <div>
+      <GlobalStyles/>
       <SelectMeasure onSelectMeasure = {handleSelectMeasure} />
       <div>
         <button onClick={openModal}>{date}</button>

@@ -43,6 +43,12 @@ export const optionECharts = ( dateList: string[], valueList: number[] ) => {
         data: valueList,
       }
     ],
+    textStyle: 
+    {
+      fontFamily: 'overpass',
+      fontWeight: 'bold',
+    },
+
   };
 
   return (

@@ -18,7 +18,7 @@ export const Line = ({newDate = '', newMeasure = ''}) => {
         error ?
         <div> Hubo un error </div>
         :
-        <ReactECharts option={options} style={{height: "300px"}} theme="light" loading={isLoading}/>
+        <ReactECharts option={options} style={{height: "300px"}} theme="dark" loading={isLoading}/>
       }
     </div>
   )
