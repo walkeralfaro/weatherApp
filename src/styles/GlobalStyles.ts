@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import 'sanitize.css'
+import 'sanitize.css';
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -16,6 +16,7 @@ export const GlobalStyles = createGlobalStyle`
   // Global styles
   body {
     font-family: 'Overpass', Arial, sans-serif;
+    background-color: ${({theme}) => theme.background};
   }
 
 

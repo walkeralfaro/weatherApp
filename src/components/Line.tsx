@@ -3,7 +3,13 @@ import { useFetchMeasure } from "../hooks/useFetchMeasure";
 import { optionECharts } from "../helpers/optionEChart";
 import { getArrayMeasures, getArrayTimestamp } from "../helpers/getArrayMeasures";
 
-export const Line = ({newDate = '', newMeasure = ''}) => {
+interface LineProps {
+  newDate: string,
+  newMeasure: string,
+  themeLine: "light" | "dark";
+}
+
+export const Line = ({newDate = '', newMeasure = '', themeLine = 'light'}:LineProps) => {
   
   const { measures, isLoading, error } = useFetchMeasure(newDate);
 
@@ -18,7 +24,7 @@ export const Line = ({newDate = '', newMeasure = ''}) => {
         error ?
         <div> Hubo un error </div>
         :
-        <ReactECharts option={options} style={{height: "300px"}} theme="dark" loading={isLoading}/>
+        <ReactECharts option={options} style={{height: "300px"}} theme={themeLine} loading={isLoading}/>
       }
     </div>
   )

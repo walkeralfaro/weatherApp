@@ -13,6 +13,6 @@ export const Button = styled.button`
 
 Button.defaultProps = {
   theme: {
-    background: "#BF4F74"
+    background: "#FFFFFF"
   }
 }
