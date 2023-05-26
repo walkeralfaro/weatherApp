@@ -4,7 +4,7 @@ import { GlobalStyles } from "./styles/GlobalStyles";
 import 'react-calendar/dist/Calendar.css';
 import { ThemeProvider } from "styled-components";
 import { light, dark } from './styles/themes';
-import { ThemeButton } from "./styles/components/ThemeButton";
+// import { ThemeButton } from "./styles/components/ThemeButton";
 
 type ThemeLine = 'dark' | 'light';
 
@@ -41,8 +41,9 @@ export const App: FC = () => {
 
     <ThemeProvider theme={theme}>
       <GlobalStyles/>
-      <NavBar/>
-      <ThemeButton onClick={toggleTheme}>cambiar tema</ThemeButton>
+      <NavBar toggleTheme={toggleTheme}/>
+      {/* <ThemeButton onClick={toggleTheme}/> */}
+      
       <SelectMeasure onSelectMeasure = {handleSelectMeasure} />
       <div>
         <button onClick={openModal}>{date}</button>

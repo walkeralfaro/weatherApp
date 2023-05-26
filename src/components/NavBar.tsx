@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import styled from 'styled-components';
+import { ThemeButton } from '.';
 
 const NavbarContainer = styled.nav`
   display: flex;
@@ -24,7 +25,12 @@ const NavLink = styled.a`
   text-decoration: none;
 `;
 
-export const NavBar: FC = () => {
+interface NavBarProps {
+  toggleTheme: () => void;
+}
+
+export const NavBar: FC<NavBarProps> = ({toggleTheme}) => {
+
   return (
     <NavbarContainer>
       <NavLink href='/'>
@@ -33,6 +39,7 @@ export const NavBar: FC = () => {
         </Logo>
       </NavLink>
       <NavLink href="/documentation">documentation</NavLink>
+      <ThemeButton onClick={toggleTheme}/>
     </NavbarContainer>
   );
 };
