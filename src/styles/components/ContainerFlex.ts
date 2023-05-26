@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
 export const ContainerFlex = styled.div`
-    width: 100rem;
-    padding: 0 2rem;
+    height: 100%;
+    min-height: calc(97vh - 210px);
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 ` 

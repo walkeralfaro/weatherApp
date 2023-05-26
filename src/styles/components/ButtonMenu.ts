@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import * as v from '../variables'
 import { Button } from './Button';
 
 export const ButtonMenu = styled(Button)`
   background-color: ${({theme}) => theme.backgroundButton};
-  border: 1px solid #4992FF;
+  border: 1px solid ${v.blue};
   font-size: 1.6rem;
   padding: 1rem;
   cursor: pointer;

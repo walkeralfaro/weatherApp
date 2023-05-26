@@ -1,15 +1,17 @@
+import * as v from './variables';
+
 export const light = {
-  background: '#F9F9F9',
-  backgroundButton: '#FFFFFF', 
-  text: '#000000',
-  fillMoon: '#093475',
+  background: v.backgroundLight,
+  backgroundButton: v.white, 
+  text: v.black,
+  fillMoon: v.blueMoon,
   fillSun: 'transparent',
 }
 
 export const dark = {
-  background: '#100C2A',
-  backgroundButton: '#100C2A', 
-  text: '#FFFFFF',
+  background: v.backgroundDark,
+  backgroundButton: v.backgroundDark, 
+  text: v.white,
   fillMoon: 'transparent',
-  fillSun: '#ffd622',
+  fillSun: v.yellowSun,
 }

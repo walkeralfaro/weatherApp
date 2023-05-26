@@ -10,6 +10,7 @@ import { Container } from "./styles/components/Container";
 import { ContainerFlex } from "./styles/components/ContainerFlex";
 import { ContainerMenus } from "./styles/components/ContainerMenus";
 import { Title } from "./styles/components/Title";
+import { Footer } from "./components/Footer";
 
 // ==============================================================================
 type ThemeLine = 'dark' | 'light';
@@ -49,9 +50,9 @@ export const App: FC = () => {
       <GlobalStyles/>
       <NavBar toggleTheme={toggleTheme}/> 
         <Title>Weather Station Project</Title>
-      <Container>
         <ContainerFlex>
-          <div className="containerflex-wrap">
+      <Container>
+
 
             <ContainerMenus>
               <SelectMeasure onSelectMeasure = {handleSelectMeasure} />
@@ -64,9 +65,10 @@ export const App: FC = () => {
             </ContainerMenus>
             <Line newDate={date} newMeasure={measureSelected} themeLine={themeLine}/>
             
-          </div>
-        </ContainerFlex>
+
       </Container>
+        </ContainerFlex>
+        <Footer/>
     </ThemeProvider>
 
   )
