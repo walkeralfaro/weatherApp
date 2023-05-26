@@ -10,7 +10,6 @@ export const dark = {
   background: '#100C2A',
   backgroundButton: '#100C2A', 
   text: '#FFFFFF',
-
   fillMoon: 'transparent',
   fillSun: '#ffd622',
 }

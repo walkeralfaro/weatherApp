@@ -1,11 +1,17 @@
 import { FC, useState } from "react"
 import { DateCalendar, Line, Modal, NavBar, SelectMeasure } from "./components";
-import { GlobalStyles } from "./styles/GlobalStyles";
-import 'react-calendar/dist/Calendar.css';
-import { ThemeProvider } from "styled-components";
-import { light, dark } from './styles/themes';
-// import { ThemeButton } from "./styles/components/ThemeButton";
 
+import { ThemeProvider } from "styled-components";
+import { GlobalStyles } from "./styles/GlobalStyles";
+import { light, dark } from './styles/themes';
+import { ButtonMenu } from "./styles/components/ButtonMenu";
+
+import { Container } from "./styles/components/Container";
+import { ContainerFlex } from "./styles/components/ContainerFlex";
+import { ContainerMenus } from "./styles/components/ContainerMenus";
+import { Title } from "./styles/components/Title";
+
+// ==============================================================================
 type ThemeLine = 'dark' | 'light';
 
 export const App: FC = () => {
@@ -41,18 +47,26 @@ export const App: FC = () => {
 
     <ThemeProvider theme={theme}>
       <GlobalStyles/>
-      <NavBar toggleTheme={toggleTheme}/>
-      {/* <ThemeButton onClick={toggleTheme}/> */}
-      
-      <SelectMeasure onSelectMeasure = {handleSelectMeasure} />
-      <div>
-        <button onClick={openModal}>{date}</button>
-        <Modal isOpen={modalOpen} onClose={closeModal}>
-          <DateCalendar onNewDate={handleNewDate} />
-        </Modal>
-      </div>
-      <Line newDate={date} newMeasure={measureSelected} themeLine={themeLine}/>
-      
+      <NavBar toggleTheme={toggleTheme}/> 
+        <Title>Weather Station Project</Title>
+      <Container>
+        <ContainerFlex>
+          <div className="containerflex-wrap">
+
+            <ContainerMenus>
+              <SelectMeasure onSelectMeasure = {handleSelectMeasure} />
+              <div className="calendar-wrap">
+                <ButtonMenu onClick={openModal}>{date}</ButtonMenu>
+                <Modal isOpen={modalOpen} onClose={closeModal}>
+                  <DateCalendar onNewDate={handleNewDate} />
+                </Modal>
+              </div>
+            </ContainerMenus>
+            <Line newDate={date} newMeasure={measureSelected} themeLine={themeLine}/>
+            
+          </div>
+        </ContainerFlex>
+      </Container>
     </ThemeProvider>
 
   )

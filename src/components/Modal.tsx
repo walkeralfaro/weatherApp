@@ -1,5 +1,7 @@
 import { FC, ReactNode } from 'react';
 
+import { ButtonTransparent } from '../styles/components/ButtonTransparent';
+
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -32,9 +34,9 @@ export const Modal: FC<ModalProps> = ({ isOpen, onClose, children }) => {
       <div className="modal" style={modalStyle}>
         <div className="modal-content">
           {children}
-          <button className="modal-close" onClick={onClose}>
-            Close
-          </button>
+          <ButtonTransparent className="modal-close" onClick={onClose}>
+            close
+          </ButtonTransparent>
         </div>
       </div>
     </div>

@@ -1,7 +1,13 @@
 import { useEffect, useState } from 'react';
 import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
+import { ContainerCalendar } from '../styles/components/ContainerCalendar';
 
-export const DateCalendar = ({ onNewDate }) => {
+interface DateCalendarProps {
+  onNewDate: (dateString: string) => void;
+}
+
+export const DateCalendar = ({ onNewDate }: DateCalendarProps) => {
   const [date, setDate] = useState<Date>(new Date());
 
   function handleChange(nextValue: Date) {
@@ -18,9 +24,11 @@ export const DateCalendar = ({ onNewDate }) => {
   }, [date])
 
   return (
-    <Calendar
-      onChange={handleChange}
-      value={date}
-    />
+    <ContainerCalendar>
+      <Calendar
+        onChange={handleChange}
+        value={date}
+      />
+    </ContainerCalendar>
   );
 }

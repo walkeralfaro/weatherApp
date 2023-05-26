@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { ThemeButton } from '.';
 
 const NavbarContainer = styled.nav`
+  max-width: 120rem;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +25,16 @@ const Icon = styled.img`
 const NavLink = styled.a`
   color: ${ ({theme}) => theme.text };
   text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 400;
+  &:hover{
+    color: #4992FF;
+  }
+`;
+const NavLinkContainer = styled.div`
+  width:100%;
+  display: flex;
+  margin: 0 4rem;
 `;
 
 interface NavBarProps {
@@ -38,7 +50,9 @@ export const NavBar: FC<NavBarProps> = ({toggleTheme}) => {
           <Icon src="/assets/logo.svg" alt="Logo" />
         </Logo>
       </NavLink>
-      <NavLink href="/documentation">documentation</NavLink>
+      <NavLinkContainer>
+        <NavLink href="/documentation">documentation</NavLink>
+      </NavLinkContainer>
       <ThemeButton onClick={toggleTheme}/>
     </NavbarContainer>
   );

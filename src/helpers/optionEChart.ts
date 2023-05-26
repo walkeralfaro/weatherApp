@@ -28,8 +28,8 @@ export const optionECharts = ( dateList: string[], valueList: number[] ) => {
     ],
     yAxis: [
       {
-        max: function (value) { return value.max + 2 },
-        min: function (value) { return value.min - 2 },
+        max: function (value) { return value.max + 1 },
+        min: function (value) { return value.min - 1 },
         axisTick: {
           alignWithLabel: true
         }

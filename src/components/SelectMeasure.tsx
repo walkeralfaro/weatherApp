@@ -1,11 +1,10 @@
 import React, { FC, useEffect, useState } from 'react';
 import styled from 'styled-components';
+import { ButtonMenu } from '../styles/components/ButtonMenu';
 
-// Estilos de la lista desplegable
+
 const SelectContainer = styled.div`
   width: fit-content;
-  padding: 1rem;
-  border-radius: 8px;
 `;
 
 const Option = styled.option`
@@ -16,17 +15,6 @@ const Option = styled.option`
   }
 `;
 
-const Select = styled.select`
-  font-family: 'Overpass', Arial, sans-serif;
-  font-size: 1.6rem;
-  background-color: ${({theme}) => theme.backgroundButton};
-  color: #4992FF;
-  padding: 1rem;
-  cursor: pointer;
-  border-radius: 8px;
-  position: relative;
-  appearance:none;
-`
 interface SelectMeasureProps {
   onSelectMeasure: (selectMeasure: string) => void;
 }
@@ -44,11 +32,11 @@ export const SelectMeasure: FC<SelectMeasureProps> = ({onSelectMeasure}) => {
 
   return (
     <SelectContainer>
-      <Select value={selectedMeasure} onChange={handleSelectMeasure}>
-        <Option value="temperature">Temperature &#8451;</Option>
+      <ButtonMenu as="select" value={selectedMeasure} onChange={handleSelectMeasure} >
+        <Option value="temperature">Temperature °C</Option>
         <Option value="humidity">Humidity %RH</Option>
         <Option value="light">Luminosity</Option>
-      </Select>
+      </ButtonMenu>
     </SelectContainer>
   );
 };
