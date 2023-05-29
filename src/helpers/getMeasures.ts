@@ -1,8 +1,6 @@
 export const getMeasures = async (date: string) => {
 
   const url = `${import.meta.env.VITE_API_HOST}${import.meta.env.VITE_API_END_POINT}${date}`;
-  console.log(import.meta.env.VITE_API_HOST);
-  
   
   try {
 

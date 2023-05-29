@@ -2,7 +2,7 @@
   "name": "weatherapp",
   "author": "Walker Alfaro",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.9.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
