@@ -33,9 +33,9 @@ export const SelectMeasure: FC<SelectMeasureProps> = ({onSelectMeasure}) => {
   return (
     <SelectContainer>
       <ButtonMenu as="select" value={selectedMeasure} onChange={handleSelectMeasure} >
-        <Option value="temperature">Temperature °C</Option>
-        <Option value="humidity">Humidity %RH</Option>
-        <Option value="light">Luminosity</Option>
+        <Option value="temperature">Temperatura</Option>
+        <Option value="humidity">Humedad</Option>
+        <Option value="light">Luminosidad</Option>
       </ButtonMenu>
     </SelectContainer>
   );

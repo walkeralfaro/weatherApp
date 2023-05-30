@@ -10,7 +10,8 @@ import styled from 'styled-components';
 const ContainerECharts = styled.div `
   min-width: 37.5px;
   max-width: 120rem;
-  height: 40rem;
+  height: 44rem;
+  margin-bottom: 4rem;
 `
 
 interface LineProps {

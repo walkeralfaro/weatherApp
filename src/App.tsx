@@ -11,6 +11,10 @@ import { ContainerFlex } from "./styles/components/ContainerFlex";
 import { ContainerMenus } from "./styles/components/ContainerMenus";
 import { Title } from "./styles/components/Title";
 import { Footer } from "./components/Footer";
+import { SubTitleH2 } from "./styles/components/SubTitleH2";
+import { ContainerUp } from "./styles/components/ContainerUp";
+import { Paragraph } from "./styles/components/Paragraph";
+import { SubTitleH3 } from "./styles/components/SubTitleH3";
 
 // ==============================================================================
 type ThemeLine = 'dark' | 'light';
@@ -19,8 +23,8 @@ export const App: FC = () => {
   const [date, setDate] = useState('');
   const [measureSelected, setMeasureSelected] = useState('')
   const [modalOpen, setModalOpen] = useState(false);
-  const [theme, setTheme] = useState(light);
-  const [themeLine, setThemeLine] = useState<ThemeLine>('light')
+  const [theme, setTheme] = useState(dark);
+  const [themeLine, setThemeLine] = useState<ThemeLine>('dark')
 
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === light ? dark : light));
@@ -49,24 +53,41 @@ export const App: FC = () => {
     <ThemeProvider theme={theme}>
       <GlobalStyles/>
       <NavBar toggleTheme={toggleTheme}/> 
-        <Title>Weather Station Project</Title>
         <ContainerFlex>
-      <Container>
+          <Container>
+            <Title>Weather Station IoT - Lima</Title>
 
+            <ContainerUp >
+
+              <ContainerMenus>
+                <SubTitleH2>resumen</SubTitleH2>
+                <Paragraph>App que monitorea en tiempo real variables climatológicas de temperatura, 
+                humedad y radiación luminosa a través de una estación metereológica <strong>inalámbrica</strong> ubicada en Lima, 
+                implementada con tecnologías IoT de bajo consumo y alta eficiencia como MQTT.</Paragraph>
+              </ContainerMenus>
+
+              <ContainerMenus>
+                <div className="select-wrap">
+                  <SubTitleH2>variable</SubTitleH2>
+                  <SelectMeasure onSelectMeasure = {handleSelectMeasure} />
+                </div>
+                <div className="calendar-wrap">
+                  <SubTitleH2>fecha</SubTitleH2>
+                  <ButtonMenu onClick={openModal}>{date}</ButtonMenu>
+                  <Modal isOpen={modalOpen} onClose={closeModal}>
+                    <DateCalendar onNewDate={handleNewDate} />
+                  </Modal>
+                </div>
+              </ContainerMenus>
+            </ContainerUp>
 
             <ContainerMenus>
-              <SelectMeasure onSelectMeasure = {handleSelectMeasure} />
-              <div className="calendar-wrap">
-                <ButtonMenu onClick={openModal}>{date}</ButtonMenu>
-                <Modal isOpen={modalOpen} onClose={closeModal}>
-                  <DateCalendar onNewDate={handleNewDate} />
-                </Modal>
-              </div>
-            </ContainerMenus>
-            <Line newDate={date} newMeasure={measureSelected} themeLine={themeLine}/>
-            
+              <SubTitleH3>{measureSelected} graph during the day</SubTitleH3>
+              <Line newDate={date} newMeasure={measureSelected} themeLine={themeLine}/>
 
-      </Container>
+            </ContainerMenus>
+                
+          </Container>
         </ContainerFlex>
         <Footer/>
     </ThemeProvider>
