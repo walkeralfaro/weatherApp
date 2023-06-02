@@ -14,7 +14,6 @@ import { Footer } from "./components/Footer";
 import { SubTitleH2 } from "./styles/components/SubTitleH2";
 import { ContainerUp } from "./styles/components/ContainerUp";
 import { Paragraph } from "./styles/components/Paragraph";
-import { SubTitleH3 } from "./styles/components/SubTitleH3";
 
 // ==============================================================================
 type ThemeLine = 'dark' | 'light';
