@@ -17,17 +17,18 @@ const ContainerECharts = styled.div `
 interface LineProps {
   newDate: string,
   newMeasure: string,
+  nameValue: string,
   themeLine: "light" | "dark";
 }
 
-export const Line = ({newDate = '', newMeasure = '', themeLine = 'light'}:LineProps) => {
+export const Line = ({newDate = '', newMeasure = '', themeLine = 'light', nameValue = 'temperature'}:LineProps) => {
   
   const { measures, isLoading, error } = useFetchMeasure(newDate);
 
   // Echart requiere que se definan las propiedades del gráfico en el arreglo "option"
   // La función "options" retorna el arreglo "option" y tiene dos parámetros de entradas
   // que son: el timeStamp y el Array de valores 
-  const options = optionECharts(getArrayTimestamp(measures, "timeStamp"), getArrayMeasures(measures, newMeasure))
+  const options = optionECharts( {dateList:getArrayTimestamp(measures, "timeStamp"), valueList:getArrayMeasures(measures, newMeasure), nameValue:`${nameValue}`})
 
   return (
     <ContainerECharts>

@@ -2,7 +2,11 @@ import styled from 'styled-components';
 
 export const ContainerUp = styled.div`
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-around;
-  /* margin-bottom: 3rem; */
+
+  @media screen and (max-width:770px) {
+    .resumen-wrap {
+      display: none;
+    }
+  }
 ` 

@@ -57,16 +57,16 @@ export const App: FC = () => {
           <Container>
             <Title>Weather Station IoT - Lima</Title>
 
-            <ContainerUp >
+            <ContainerUp>
 
-              <ContainerMenus>
+              <ContainerMenus className="resumen-wrap">
                 <SubTitleH2>resumen</SubTitleH2>
                 <Paragraph>App que monitorea en tiempo real variables climatológicas de temperatura, 
                 humedad y radiación luminosa a través de una estación metereológica <strong>inalámbrica</strong> ubicada en Lima, 
                 implementada con tecnologías IoT de bajo consumo y alta eficiencia como MQTT.</Paragraph>
               </ContainerMenus>
 
-              <ContainerMenus>
+              <ContainerMenus className="menus-wrap">
                 <div className="select-wrap">
                   <SubTitleH2>variable</SubTitleH2>
                   <SelectMeasure onSelectMeasure = {handleSelectMeasure} />
@@ -82,8 +82,7 @@ export const App: FC = () => {
             </ContainerUp>
 
             <ContainerMenus>
-              <SubTitleH3>{measureSelected} graph during the day</SubTitleH3>
-              <Line newDate={date} newMeasure={measureSelected} themeLine={themeLine}/>
+              <Line newDate={date} newMeasure={measureSelected} themeLine={themeLine} nameValue={measureSelected}/>
 
             </ContainerMenus>
                 

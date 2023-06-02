@@ -1,6 +1,12 @@
 import { ReactEChartsProps } from "../components/ReactEcharts";
 
-export const optionECharts = ( dateList: string[], valueList: number[] ) => {
+interface optionEChartsProps {
+  dateList: string[],
+  valueList: number[],
+  nameValue: string,
+}
+
+export const optionECharts = ( {dateList , valueList , nameValue }: optionEChartsProps ) => {
 
   const option: ReactEChartsProps["option"]  = {
 
@@ -18,6 +24,12 @@ export const optionECharts = ( dateList: string[], valueList: number[] ) => {
     tooltip: {
       trigger: 'axis'
     },
+    title: [
+      { 
+        left: 'center',
+        text: `${nameValue} graph during the day`,
+      }
+    ],
     xAxis: [
       {
         data: dateList,
@@ -28,6 +40,13 @@ export const optionECharts = ( dateList: string[], valueList: number[] ) => {
     ],
     yAxis: [
       {
+        name: `${nameValue}`,
+        nameLocation: 'middle',
+        nameGap: 50,
+        nameTextStyle: {
+          fontWeight: 'bolder',
+          fontSize: 14,
+        },
         max: function (value) { return value.max + 1 },
         min: function (value) { return value.min - 1 },
         axisTick: {
