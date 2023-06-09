@@ -10,7 +10,8 @@ export const useFetchMeasure = (date: string) => {
 
     if(date) {
       const newMeasures = await getMeasures(date);
-      if(!newMeasures) {
+      
+      if(newMeasures.error) {
         setError(true);
         return;
       }
